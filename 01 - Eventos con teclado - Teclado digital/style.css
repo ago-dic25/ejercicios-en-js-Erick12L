@@ -1,0 +1,44 @@
+body {
+    background-image: url('background.jpg');
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.key {
+    background-color:coral;
+    border: 1px solid #ccc;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+    width: 28%;
+}
+
+.key kbd {
+    padding-right: 20px;
+}
+
+.key:hover {
+    background-color:rgb(200, 77, 32);
+    cursor: pointer;
+}
+
+
+.save button {
+    background-color: rgb(85, 1, 1);
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.save button:hover {
+    background-color: rgb(216, 113, 113);
+    cursor: pointer;
+}
