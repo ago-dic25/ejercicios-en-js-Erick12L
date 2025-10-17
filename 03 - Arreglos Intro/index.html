@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arreglos intro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+ <input type="text" id ="filtroAlumno" placeholder="Escriba el nombre o matricula">
+ <button>Realizar busqueda</button>
+  <select id="ordenSelect">
+    <option value="AZ">Ordenar A-Z</option>
+    <option value="ZA">Ordenar Z-A</option>
+  </select>
+ <div class ="resultado">
+  <ul id ="listaAlumnos">
+  </ul>
+ </div> 
+
+  <script src="index.js"></script>
 </body>
 </html>
